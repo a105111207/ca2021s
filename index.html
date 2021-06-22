@@ -122,12 +122,18 @@
 
   <h3> FinalProject: </h3>
   <div>
-    心得: 在做專案的時候，因為特效問題讓電腦真的死當。<br>
+    心得：在做專案的時候，因為特效問題讓電腦真的死當。<br>
     我做的分鏡裡人物表情，有嘗試使用過MMD4Mecanim Morph
     helper確定可以固定一個表情，但只能同時度定一個參數，而且無法做出表情轉變的動畫。因此使用了另外兩個套件做控制，MMD4MecanimFaciem可以記錄手動在MMD4Mecanim
     Model面板裡拉出的表情參數，MMD4MecanimFaciemForMecanim可將MMD4MecanimFaciem存下的表情轉成動畫檔匯出，之後就可以用Animator製作表情動畫流程。<br>
-    只是這種方法有一缺點，在MMD4MecanimFaciemForMecanim匯出時必須將每個表情動作權重調整均分(算式：1.0/表情動作總數)，這樣Animator才會出現表情轉變，但也導致原本調整好的表情參數被權重影響而變小。
-    <br><br>
+    只是這種方法有一缺點，在MMD4MecanimFaciemForMecanim匯出時必須將每個表情動作權重調整均分(算式：1.0/表情動作總數)，這樣Animator才會出現表情轉變，但也導致原本調整好的表情參數被權重影響而變小。<br>
+    <br>
+    表情對比：(左為Play模式含燈光效果，右為開發人員模式不含燈光效果，角度可能會有誤差)<br>
+    <img src="different1.PNG" width="650" height="315">
+    <img src="different2.PNG" width="560" height="315"><br>
+    下面的這個表情在影片中沒出現過，但實際上在Animator中是存在的。<br>
+    <img src="different3.PNG" width="560" height="315"><br>
+    <br>
     參考資源：<br>
     <a href="https://mebiustos.hatenablog.com/entry/2015/08/03/192115">MMD4MecanimFaciem</a><br>
     <a href="https://mebiustos.hatenablog.com/entry/2015/08/16/113117">MMD4MecanimFaciemForMecanim</a>
